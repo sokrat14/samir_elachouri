@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>samir cours</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <img src="https://yt3.googleusercontent.com/ytc/AIdro_mWijf3GrDSOngQzDs9ed0glz87BwMrVdBiy7bqfFCGKA=s160-c-k-c0x00ffffff-no-rj" alt="error">
+                        </li>
+                        <li>
+                            <h1>samir elachouri</h1>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <ul class="menu">
+            <li>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/lOI9sa9nac4">python</a>
+                <ul class="submenu">
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/lOI9sa9nac4"> 1-1</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/gKjxG39NJ9g"> 1-2</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/a0xsRnZsl7g"> 1-3</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/9GTWQ_pO_dE"> 1-4</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/9wUOkp2JEHg">html</a>
+                <ul class="submenu">
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/9wUOkp2JEHg"> 2-1</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/VKqS_n92FI8"> 2-2</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/NgXDP_-JMIU"> 2-3</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/UQDrxxc2AZ8"> 2-4</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/UPDWpOXYCLc">jquery</a>
+                <ul class="submenu">
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/UPDWpOXYCLc"> 3-1</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/nOhFUNqw_9o"> 3-2</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/Wnt_yzCGRD4"> 3-3</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/kmnQ1nGQK4s"> 3-4</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/dmpYygUCwCo">javascript</a>
+                <ul class="submenu">
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/dmpYygUCwCo"> 4-1</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/hHhc0xQctmY"> 4-2</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/eg7foPnc3fo"> 4-3</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://www.youtube.com/embed/lUHch5pXe3M"> 4-4</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- Modal for displaying YouTube video -->
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="videoModalLabel">Video</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe id="videoFrame" width="100%" height="400" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./javascript/script.js"></script>
+</body>
+</html>

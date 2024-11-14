@@ -1,0 +1,81 @@
+
+            img {
+                border-radius: 50%;
+            }
+            h1 {
+                color: azure;
+                text-align: center;
+            }
+            body {
+                font-family: Arial, sans-serif;
+            }
+            /* تنسيق القائمة الرئيسية */
+            .menu {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: #333;
+            }
+            .menu > li {
+                position: relative;
+                display: inline-block;
+                width: 150px;
+                background-color: #333;
+                text-align: center;
+            }
+            .menu > li > a {
+                display: block;
+                padding: 10px;
+                color: white;
+                text-decoration: none;
+                background-color: #333;
+            }
+            .menu > li > a:hover {
+                background-color: #444;
+            }
+
+            /* تنسيق القوائم الفرعية */
+            .submenu {
+                display: none;
+                list-style-type: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: #444;
+                width: 150px;
+            }
+            .submenu li a {
+                padding: 10px;
+                color: white;
+                text-decoration: none;
+            }
+            .submenu li a:hover {
+                background-color: #555;
+            }
+
+            /* إظهار القوائم الفرعية عند التمرير على العنصر */
+            .menu > li:hover .submenu {
+                display: block;
+            }
+
+            .modal-dialog {
+                max-width: 90%;
+                max-height: 80%;
+            }
+
+            .modal-body {
+                padding: 0;
+            }
+
+            .modal-content {
+                background-color: #222;
+            }
+
+            .modal-header {
+                border-bottom: none;
+            }
+
+            .modal-footer {
+                border-top: none;
+            }
+        
